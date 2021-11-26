@@ -1,0 +1,118 @@
+\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{Versuchsprotokoll: Franck-Hertz-Versuch}
+\author{Alexander Bartsch, Simon }
+\date{02.05.2019}
+
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\newpage
+\section{Anregung von Quecksilber in den ersten angeregnet Zustand}
+Hier kommt die Einleitung. Ihre Überschrift kommt
+automatisch in das Inhaltsverzeichnis.
+\newpage
+\subsection{Schaltplan}
+\newpage
+\subsection{Energie}
+\newpage
+\subsection{Anodenkurve}
+\newpage
+
+
+
+
+\section{Zweite Anregungsstufe von Quecksilber}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=15cm]{Aufgabe2.PNG}
+\caption{Nächsthöhere Anregungsenergie [1]}
+\label{Aufgabe2}
+\end{center}
+\end{figure}
+
+
+Zur Energiebestimmung der nächsthöheren Anregung wird der Versuchsaufbau von 1.4 modifiziert indem die beiden Gitter G1 und G2 das gleiche Potential gelegt werden. Dies sorgt für eine höhere Elektronenbeschleunigung und eine feldfreie Stoßzone.
+Durch die höhere Beschleunigung und die längere Stoßzone erhöht sich die Wahrscheinlichkeit der inelastischen Stöße. $U_B$ darf nicht zu hoch sein, da es sonst zu Gasentladungen führt. \newline
+Zudem muss der Dampfdruck von Quecksilber verringert werden (niedrigere Heiztemperatur).
+\newline
+Die nachfolgenden Messwerte sind von einer anderen Versuchsgruppe, da wir mit unserem Versuchsaufbau nicht genügend Peaks anzeigen könnten. 
+\newline
+Jeder Peak in Abbildung \ref{Aufgabe2} ist eine Linearkombination aus dem ersten (a) und dem zweiten (b) angeregten Zustand $E = a E_1 + b E_2$.
+\newline
+Vergleicht man die Beschleunigungsspannung $U_B$ mit den Literaturwerten[2] E1 = 4,9 V und E2 = 6,7 V, so ergibt sich die Tabelle 1.\newline \newline
+Die großen Abweichungen liegen an der schlechten Bestimmbarkeit der Peaks. Anders als die ideale Kurve von Einsporn aus der Vorbereitungshilfe ist in Abbildung \ref{Aufgabe2} nicht deutlich zu erkennen ob es sich um ein Peak handelt oder nicht.
+\newline Es ist schemenhaft zu erkennen, dass sich die Franck-Hertz-Kurve aus einer Überlagerung von zwei unterschiedlichen Anregungsenergien zusammensetzt.
+
+\newpage
+Tabelle 1: $U_B$ bei verschiedenen Zuständen
+\begin{center}
+
+
+\begin{tabular}{c ccc}
+Zustände &$U_B$ in V & $U_{theoretisch}$ in V & Abweichung in $\%$  \\
+\hline
+  a & 7,45 & 4,9 & +52,0  \\
+2a & 12,10 & 9,8 & +23,5 \\
+a+b & 13,48 & 11,6 & +16,2  \\
+2a+b & 18,67 & 16,5 & +13,2  \\
+a+2b & 20,08 & 18,3 & +9,7  \\
+2a+2b & 24,72 & 23,2 & +6,6 \\
+a+3b & 27,27 & 25 & +9,1 \\
+
+\end{tabular}
+\end{center} 
+
+
+
+
+
+
+
+
+
+\section{Anregung von Neon}
+Mit dem bereits vollständigen Versuchsaufbau kann die mittlere Anregungsenergie von Neon bestimmt werden. Da Neon bei Raumtemperatur bereits gasförmig vorherrscht ist das erhitzen nicht notwendig. Zudem findet der angeregte Übergang \newline
+
+Bei einer bestimmten Beschleunigungsspannung tritt eine Leuchtschicht in der Röhre auf. Erhöht man $U_B$, so ist eine Verschiebung der Leuchtschicht zur Kathode zu beobachten. Anschließend bilden sich mehrere Leuchtschichten mit gleichem Abstand.
+\newline
+Auch bei diesem Versuch werden die ermittelten Werte einer anderen Gruppe verwendet, da der Versuchsaufbau fehlerhaft war.\newline 
+Wie in Versuch 1 entstehen am Oszillator mehrere Peaks mit gleichem Abstand zueinander. \newline  
+Aus Tabelle 2 kann man eine mittlere Energie von $E =$ (18,0 $\pm$ 1,4) eV ermittelt werden.
+
+Der Literaturwert für $E_{Lit}$ [2] liegt zwischen 18,4 und 19,0 eV. Somit ist die gemessene mittlere Energie um mindestens 2,1$\%$ kleiner.
+
+
+
+\begin{center}
+Tabelle 2: Peaks und $U_B$ für Neon[1]
+
+\begin{tabular}{c c}
+Peaks &$U_B$ in V   \\
+\hline
+  1 & 14   \\
+2 & 30  \\
+3 & 49   \\
+4 & 68   \\
+
+
+\end{tabular}
+\end{center}
+
+\section{Quellen}
+[1] Versuchswerte von einer anderen Versuchsgruppe \newline 
+[2] Literaturwerte aus der Vorbereitungshilfe
+
+
+\end{document}
